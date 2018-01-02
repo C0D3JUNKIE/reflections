@@ -1,14 +1,17 @@
-Q & A
+LESSON ONE Q & A
 
 1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
 
 Specifically highlighting the differences between two files allows you to focus on just the areas where there could be an error.
+
 
 2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
 Having multiple versions of any document allows you to be able to make changes to any application or file quickly and easily without having to worry about losing previous info contained in the said documents/applications.
 
 3)What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Timing is everything.  At least most of the time.  Having various versions really helps for recovery and experimentation.
 
 
 
