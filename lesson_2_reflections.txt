@@ -2,30 +2,37 @@ LESSON 2 REFLECTIONS
 
 What happens when you initialize a repository? Why do you need to do it?
 
+Initializing a repository creates a point in time snapshot of the current state of the directory.  This is needed when attempting to utilize GIT for tracking those changes.
 
 
 How is the staging area different from the working directory and the repository?
 
+Staging is just that an itermediate area to hold changes before they are actually confirmed/committed.  The difference is a "state" attribute that is added to the metadata.(I am not sure that this actually happens but this is how I visuallize it.)  Specifying, if it is changed from the original for that specifc commit?
 
 
 What value do you think it offers?
 
+I believe it offers an opportunity to determine whether or not certain changes are really needed and function appropriately prior to committing to them.
 
 
 How can you use the staging area to make sure you have one commit per logical change?
 
+Using 'git status' will list the changes that have been added.  You should ensure that all of the changes ally to a specific concrete function or correction.  If not you should consider breaking up the commit.  For clarity in future.
 
 
 What are some situations when branches would be helpful in keeping your history organized?  How would branches help?
 
+Creating branches allows you to experiment with functions and architecture.  Allowing for you to improve on the product with the ability to scrap the changes all together if needed.
 
 
 How do the diagrams help you visualize the branch structure?
 
+In my opinion, I believe that they help with the explanation and learning of the content.  Additionally, it helps you learn to create your own graphs based on the commit log and the number of branches.  Further helping with acquiring a mastery of the content.
 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+Merging two branches together results in a single point where the two branches were brought together.  This point gives us the opportunity to further track that changes "upstream" by commit.  It is represented in the diagram to emphasize the creation of a single point where the changes were brought together.
 
 
 What are the pros and cons of Git's automatic merging vs. always doing merges manually?
